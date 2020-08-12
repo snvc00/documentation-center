@@ -1,4 +1,4 @@
-# :books::computer: Documentation Center &nbsp;![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE)
+# :books::computer: Documentation Center &nbsp;[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/snvc00/documentation-center/pulls) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/snvc00/documentation-center/blob/master/LICENSE)
 
 ### About the application
 _Documentation Center_ is a web application created to share information about programming topics, like data structures, algorithms and sorting methods. The main purpose of this web application is to provide a brief explanation of the specific topic. Creating a quick example of the structure, let's learn about a very common data structure:
