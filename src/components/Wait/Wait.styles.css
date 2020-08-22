@@ -1,0 +1,19 @@
+.loading-box {
+  margin-top: 10%;
+  width: 30%;
+  border-radius: 20px;
+}
+
+.btn-box {
+  margin: 40px 0;
+}
+
+.wait-text {
+  font-size: 1.5rem;
+  font-weight: 350;
+  margin-bottom: 30px;
+}
+
+.smaller {
+  font-size: 1.25rem;
+}

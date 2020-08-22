@@ -1,0 +1,16 @@
+.category {
+  margin-top: 10px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgb(100, 100, 100);
+}
+
+.item {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.category i {
+  margin-right: 10px;
+}
