@@ -37,6 +37,10 @@ class Stack:
 The core application functionality and style were developed using:
 * React
 * Material-UI
+* React Bootstrap
+* Recharts
+* Axios
+* React Ace
 * MongoDB
 
 ### Contributors
