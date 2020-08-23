@@ -24,10 +24,10 @@ class App extends React.Component {
   componentDidMount() {
     axios
       .all([
-        axios.get("http://localhost:5000/colors"),
-        axios.get("http://localhost:5000/links"),
-        axios.get("http://localhost:5000/topics"),
-        axios.get("http://localhost:5000/appinfo"),
+        axios.get("https://snvc00documentationcenterapi.herokuapp.com/colors"),
+        axios.get("https://snvc00documentationcenterapi.herokuapp.com/links"),
+        axios.get("https://snvc00documentationcenterapi.herokuapp.com/topics"),
+        axios.get("https://snvc00documentationcenterapi.herokuapp.com/appinfo"),
       ])
       .then((response) => {
         const newCurrentTopic =
