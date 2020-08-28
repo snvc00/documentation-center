@@ -43,6 +43,12 @@ The core application functionality and style were developed using:
 * React Ace
 * MongoDB
 
+### How to Contribute
+* Fix an open issue.
+* Provide *valid* information of any topic.
+* Participate in the implementation of a new feature.
+> All the provided information will be reviewed before and if it follow the guidelines will be accepted.
+
 ### Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START -->
