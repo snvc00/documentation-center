@@ -15,7 +15,7 @@ export default function Navigation(props) {
       className="navbar navbar-light navbar-expand-md navigation-clean"
     >
       <div className="container">
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/documentation-center">
           <img id="logo" src={logo} alt="Logo" />
           Documentation Center
         </Navbar.Brand>

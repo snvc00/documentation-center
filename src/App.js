@@ -74,7 +74,7 @@ class App extends React.Component {
     try {
       if (
         this.state.colors.length < 1 ||
-        this.state.links.length < 1 ||
+        this.state.links.length  < 1 ||
         this.state.topics.length < 1 ||
         this.state.application === null
       ) {

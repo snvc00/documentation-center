@@ -23,12 +23,12 @@ export default function Content(props) {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <h2 style={{ marginBottom: "30px" }}>Description</h2>
-            <p className="text-left text-black-50">
+            <h2 style={{ marginBottom: '30px', marginTop:'50px' }}>Description</h2>
+            <p className="text-center text-black-50" style={{fontSize: '1.25rem'}}>
               {props.currentItem.description}
             </p>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6" style={{marginTop: '50px'}}>
             <h2 style={{ textTransform: "capitalize", marginBottom: "30px" }}>
               {props.currentItem.content.title}
             </h2>

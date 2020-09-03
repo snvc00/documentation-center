@@ -1,5 +1,6 @@
 import React from "react";
 import Editor from "./Editor.component";
+import './Implementation.styles.css';
 
 class Implementation extends React.Component {
   constructor(props) {
@@ -34,14 +35,14 @@ class Implementation extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-md-6">
-                <h2>Code Implementation</h2>
+                <h2 style={{marginBottom: '2rem'}}>Code Implementation</h2>
               </div>
               <div className="col-md-6">
                 <div>
-                  <div className="input-group" style={{ width: "50%" }}>
+                  <div className="input-group" style={{ width: '70%', margin: 'auto'}}>
                     <select
                       id="selector"
-                      className="custom-select"
+                      className="custom-select language-selector"
                       onChange={(event) => {
                         this.handleChange(event);
                       }}
