@@ -43,6 +43,7 @@ export default function Footer(props) {
               </a>
             </div>
           </div>
+            <p className="version-number">{props.appData.version}</p>
         </div>
       </footer>
     </div>
