@@ -1,6 +1,5 @@
 import React from "react";
 import Editor from "./Editor.component";
-import './Implementation.styles.css';
 
 class Implementation extends React.Component {
   constructor(props) {
@@ -42,7 +41,7 @@ class Implementation extends React.Component {
                   <div className="input-group" style={{ width: '70%', margin: 'auto'}}>
                     <select
                       id="selector"
-                      className="custom-select language-selector"
+                      className="custom-select"
                       onChange={(event) => {
                         this.handleChange(event);
                       }}
