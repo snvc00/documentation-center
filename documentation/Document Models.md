@@ -1,72 +1,47 @@
 ## Document Model for Data Structures
 
 ```yaml
-{
-  "title": "",
-  "icon": "",
-  "items": [
-    {
-      "name": "",
-      "description": "",
-      "content": {
-        "title": "",
-        "url": ""
+"data structures":
+  {
+    "icon": "",
+    "items":
+      {
+        "unique_data_structure_name":
+          {
+            "description": "",
+            "content": { "title": "", "url": "" },
+            "implementations":
+              { "unique_language": { "code": "", "text": "" }, ... },
+          },
+        ...,
       },
-      "implementations": [
-        {
-          "language": "",
-          "code": "",
-          "text": ""
-        },
-        ...
-      ]
-    },
-    ...
-  ]
-}
+  }
 ```
 
 ### Document Model for Algorithms and Sorting Methods
 
 ```yaml
-{
-  "title": "",
-  "icon": "",
-  "items": [
-    {
-      "name": "",
-      "description": "",
-      "content": {
-        "title": "",
-        "chart": [
+"algorithms / sorting methods":
+  {
+    "icon": "",
+    "items":
+      {
+        "unique_algorithm_or_sorting_name":
           {
-            "value": 1
+            "description": "",
+            "content": { "title": "", "chart": [{ "value": 1 }, ...] },
+            "implementations":
+              { "unique_language": { "code": "", "text": "" }, ... },
           },
-          ...
-        ]
+        ...,
       },
-      "implementations": [
-        {
-          "language": "",
-          "code": "",
-          "text": ""
-        },
-        ...
-      ]
-    },
-    ...
-  ]
-}
+  }
 ```
 
 ### Document Model for Colors
 
 ```yaml
-{
-  "color": "",
-  "primary": "",
-  "secondary": ""
-}
+{ "color": "", "primary": "", "secondary": "" }
 ```
 
 ### Document Model for Links
@@ -77,23 +52,12 @@
   "url": "",
   "status": "",
   "tooltip": "",
-  "categories": [
-    "navbar",
-    "help",
-    "info"
-  ]
+  "categories": ["navbar", "help", "info"],
 }
 ```
 
 ### Document Model for Application Information
 
 ```yaml
-{
-  "application": {
-    "description": "",
-    "repository": "",
-    "version": "",
-    ...
-  }
-}
+{ "application": { "description": "", "repository": "", "version": "", ... } }
 ```
